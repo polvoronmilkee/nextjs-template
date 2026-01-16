@@ -27,11 +27,12 @@ export default async function Home({
       <main className="row-start-2 flex flex-col items-center gap-8 sm:items-start">
         <Image
           className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
+          src="https://www.svgrepo.com/show/354113/nextjs-icon.svg"
           alt="Next.js logo"
-          width={180}
-          height={38}
+          width={138}
+          height={138}
           priority
+          unoptimized
         />
         <ol className="list-inside list-decimal text-center font-[family-name:var(--font-geist-mono)] text-sm sm:text-left">
           <li className="mb-2">
@@ -53,10 +54,11 @@ export default async function Home({
           >
             <Image
               className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
+              src="https://camo.githubusercontent.com/7f7feac5aa52f9a8d0ee29d408f8cc3b5ae8d1c3d3025830e996248ea4945d7d/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313538383830353835382f7265706f7369746f726965732f76657263656c2f6c6f676f2e706e67"
               alt="Vercel logomark"
               width={20}
               height={20}
+              unoptimized
             />
             Deploy now
           </a>
@@ -79,10 +81,11 @@ export default async function Home({
         >
           <Image
             aria-hidden
-            src="https://nextjs.org/icons/file.svg"
+            src="https://www.svgrepo.com/show/364490/files-fill.svg"
             alt="File icon"
-            width={16}
-            height={16}
+            width={20}
+            height={20}
+            unoptimized
           />
           Learn
         </a>
@@ -94,10 +97,11 @@ export default async function Home({
         >
           <Image
             aria-hidden
-            src="https://nextjs.org/icons/window.svg"
+            src="https://www.svgrepo.com/show/503430/microsoft-windows.svg"
             alt="Window icon"
-            width={16}
-            height={16}
+            width={18}
+            height={18}
+            unoptimized
           />
           Examples
         </a>
@@ -109,10 +113,11 @@ export default async function Home({
         >
           <Image
             aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
+            src="https://www.svgrepo.com/show/370104/globe-wire.svg"
             alt="Globe icon"
-            width={16}
-            height={16}
+            width={22}
+            height={22}
+            unoptimized
           />
           Go to nextjs.org →
         </a>
